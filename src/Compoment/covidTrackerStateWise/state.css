@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 90%;
+  margin: auto;
+  margin-top: 5vh;
+}
+.textcenter {
+  text-align: center;
+}
+.textbold {
+  font-weight: bold;
+}
+.table-responsive {
+  max-height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  margin-top: 2vh;
+  overflow: auto;
+}
+
+.main-heading > h1 {
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+.darktheam {
+  background-color: black;
+  color: white;
+  position: static;
+}
+tbody :hover {
+  background-color: rgb(212, 204, 204);
+}
+
+:nth-col(3) {
+  background-color: green;
+}
